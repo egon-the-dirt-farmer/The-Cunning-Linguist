@@ -118,8 +118,8 @@ text_frame = tk.Frame(master=window)
 text_frame.pack(padx=20, pady=20)
 
 # Create a label and text entry for the text
-text_label = tk.Label(master=text_frame, text="Text:")
-text_label.pack(side="left")
+text_label = tk.Label(master=text_frame, text="Input Text")
+text_label.pack(side="top")
 text_entry = tk.Text(master=text_frame)
 text_entry.pack(side="right")
 
@@ -144,7 +144,7 @@ translation_frame = tk.Frame(master=window)
 translation_frame.pack(padx=20, pady=20)
 
 # Create a label to display the translated text
-translation_label = tk.Label(master=translation_frame, text="")
+translation_label = tk.Label(master=translation_frame, text="Translation")
 translation_label.pack()
 
 # Create a label to display notifications
